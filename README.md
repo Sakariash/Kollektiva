@@ -5,3 +5,8 @@
 School project together with digital designers.
 
 # installation
+
+1. You can clone this repo and open it with your favourite code-editor.
+2. Clone the project and set up your DB.
+3. Visit the localhost in your browser.
+4. Enjoy!
