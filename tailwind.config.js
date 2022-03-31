@@ -11,6 +11,11 @@ module.exports = {
     },
     extend: {},
 
+    colors: {
+      secondary: "#D9EBFB",
+      primary: "#0E589B",
+      btnPrimary: "#FFBA34",
+    },
     screens: {
       tablet: "640px",
       // => @media (min-width: 640px) { ... }
