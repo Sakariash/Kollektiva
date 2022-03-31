@@ -4,7 +4,7 @@ import Hamburger from "./Hamburger";
 
 const Navbar = () => {
   return (
-    <div className="px-5 w-screen h-20 flex justify-between items-center tablet:px-11 bg-green-500">
+    <div className="px-5 w-screen h-20 flex justify-between items-center bg-green-500 tablet:px-11">
       <Logo />
       <NavLinks />
       <Hamburger />
