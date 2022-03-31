@@ -7,7 +7,7 @@ module.exports = {
     colors: {
       secondary: "#D9EBFB",
       primary: "#0E589B",
-      btnPrimary: "#FFBA34",
+      btnPrimary: "#FFBA35",
     },
     extend: {},
 
