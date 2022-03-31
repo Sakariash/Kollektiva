@@ -1,29 +1,36 @@
 const LoginForm = (props) => {
   return (
-    <div className="flex flex-col justify-center content-center mt-20">
-      <label for="email">
-        <b className="">Emailadress</b>
-      </label>
-      <input
-        className="flex justify-center bg-secondary h-10 w-3/4 tablet:h-12 tablet:w-1/3"
-        type="text"
-        placeholder="Namn@exempel.se"
-        name="email"
-        required
-      ></input>
-      <label for="password">
-        <b>Lösenord</b>
-      </label>
-      <input
-        className="flex justify-center bg-secondary h-10 w-3/4 tablet:h-12 tablet:w-1/3"
-        type="password"
-        placeholder="************"
-        name="password"
-        required
-      ></input>
-      <button className="bg-btnPrimary mt-20 h-12 w-2/3" type="submit">
-        Login
-      </button>
+    <div className="flex flex-col items-center content-center mt-20">
+      <div className="w-3/4 tablet:h-12 tablet:w-1/3">
+        <label className="block" for="email">
+          <p className="font-bold">Emailadress</p>
+        </label>
+        <input
+          className="bg-secondary h-10 w-full rounded-md tablet:h-12 tablet:w-full"
+          type="text"
+          placeholder="Namn@exempel.se"
+          name="email"
+          required
+        ></input>
+        <label for="password" className="block">
+          <p className="mt-4 font-bold">Lösenord</p>
+        </label>
+        <input
+          className="bg-secondary h-10 w-full rounded-md tablet:h-12 tablet:w-full"
+          type="password"
+          placeholder="************"
+          name="password"
+          required
+        ></input>
+        <div className="flex justify-center tablet:justify-start">
+          <button
+            className="bg-btnPrimary mt-20 h-14 w-3/4 font-bold rounded-md tablet:h-16 w-3/6"
+            type="submit"
+          >
+            Logga in
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
