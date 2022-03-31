@@ -4,12 +4,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
     extend: {
       colors: {
         secondary: "#D9EBFB",
         primary: "#0E589B",
         btnPrimary: "#FFBA34",
       },
+
 
       screens: {
         tablet: "640px",
