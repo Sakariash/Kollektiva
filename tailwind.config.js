@@ -4,6 +4,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      secondary: "#D9EBFB",
+      primary: "#0E589B",
+      btnPrimary: "#FFBA34",
+    },
     extend: {},
 
     screens: {
