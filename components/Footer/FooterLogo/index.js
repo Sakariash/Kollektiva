@@ -1,6 +1,6 @@
 export default function FooterLogo({ text }) {
   return (
-    <div className="w-full flex flex-row justify-center items-center desktop:w-fit pr-44 pl-24">
+    <div className="w-full flex flex-row justify-center items-center desktop:w-fit desktop:pl-44">
       <div className="w-16">
         <img
           className="h-full object-contain"
