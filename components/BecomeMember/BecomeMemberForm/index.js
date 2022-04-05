@@ -1,7 +1,7 @@
 const BecomeMemberForm = (props) => {
   return (
     <div className="flex flex-col items-center content-center mt-20 tablet:mt-10">
-      <div className="w-3/4 tablet:h-12 tablet:w-3/5 laptop:w-1/3">
+      <div className="w-3/4 tablet:w-3/5 laptop:w-1/3">
         <label className="block" for="email">
           <p className="font-bold">Ange din e-postadress</p>
         </label>
