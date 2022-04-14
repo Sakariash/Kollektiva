@@ -10,8 +10,10 @@ const Login = () => {
       <LoginHeading />
       <LoginText
         SignupLink={
-          <Link href="/signup">
-            <a className="text-link">Bli medlem här!</a>
+          <Link href="pages/login/index.js">
+            <a className="text-link" href="pages/login/index.js">
+              Bli medlem här!
+            </a>
           </Link>
         }
       />
