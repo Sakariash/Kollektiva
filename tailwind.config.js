@@ -12,6 +12,10 @@ module.exports = {
         link: "#10579C",
       },
 
+      backgroundImage: {
+        "hero-image": "url('/assets/images/Rectangle37.png')",
+      },
+
       screens: {
         tablet: "640px",
         // => @media (min-width: 640px) { ... }
