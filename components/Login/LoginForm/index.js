@@ -26,8 +26,9 @@ const LoginForm = (props) => {
           <button
             className="bg-btnPrimary mt-20 h-14 w-3/4 font-bold rounded-md mb-20 tablet:h-16 tablet:w-3/6 tablet:mt-6"
             type="submit"
+            href="/mypages"
           >
-            Logga in
+            <a href="/mypages">Logga in</a>
           </button>
         </div>
       </div>

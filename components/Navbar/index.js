@@ -10,9 +10,9 @@ const Navbar = () => {
       <Logo />
       <NavLinks
         NavLinks={[
-          <Link href="/">Hyr ut ditt boende</Link>,
-          <Link href="/">Hyr ett boende</Link>,
-          <Link href="/">Mina sidor</Link>,
+          <Link href="/login">Hyr ut ditt boende</Link>,
+          <Link href="/signup">Hyr ett boende</Link>,
+          <Link href="/mypages">Mina sidor</Link>,
         ]}
       />
       <Hamburger />
