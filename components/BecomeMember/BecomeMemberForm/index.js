@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BecomeMemberForm = (props) => {
   return (
     <div className="flex flex-col items-center content-center mt-20 tablet:mt-10">
@@ -66,7 +68,11 @@ const BecomeMemberForm = (props) => {
             className="bg-btnPrimary mt-20 h-14 w-3/4 font-bold rounded-md mb-20 tablet:h-16 tablet:w-3/6 tablet:mt-6"
             type="submit"
           >
-            Bli medlem
+            <Link href="pages/login/index.js">
+              <a className="text-link" href="pages/login/index.js">
+                Bli medlem
+              </a>
+            </Link>
           </button>
         </div>
       </div>
