@@ -10,7 +10,10 @@ const RegisterdHousesHeading = () => {
           </h1>
         </div>
         <div className="flex flex-col w-1/2 justify-end pb-4">
-          <MyPagesButton text={"Registrera din bostad"} link={"/"} />
+          <MyPagesButton
+            text={"Registrera din bostad"}
+            link={"/finishedregistration"}
+          />
         </div>
       </div>
       <h2 className="ml-24 pt-14 text-5xl text-primary">
