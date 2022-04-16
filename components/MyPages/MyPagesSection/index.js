@@ -13,7 +13,7 @@ export default function MyPagesSection({
         <p className="text-white p-2 mb-6">{text}</p>
         <MyPagesButton text={buttonsText} />
       </div>
-      <img className="w-1/2" src={picture}></img>
+      <img className="w-3/5" src={picture}></img>
     </div>
   );
 }
