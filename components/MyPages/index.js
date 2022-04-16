@@ -30,6 +30,7 @@ const MyPages = () => {
         heading={"Dina registrerade bostäder"}
         text={"Här kan du se de boenden som du har erbjudit dig att hyra ut."}
         buttonsText={"Se dina registrerade bostäder"}
+        link={"/registeredhouses"}
       />
       <MyPagesSection
         picture={"assets/images/MyPages/Mypages2.png"}

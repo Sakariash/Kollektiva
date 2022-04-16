@@ -10,6 +10,7 @@ module.exports = {
         primary: "#0E589B",
         btnPrimary: "#FFBA34",
         link: "#10579C",
+        accent: "#45BF6E",
       },
 
       backgroundImage: {
