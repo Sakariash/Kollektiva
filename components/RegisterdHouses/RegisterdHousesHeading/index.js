@@ -1,7 +1,18 @@
+import MyPagesButton from "../../MyPages/MyPagesButton";
+
 const RegisterdHousesHeading = () => {
   return (
     <div className="bg-white pb-14">
-      <img className="z-0 flex" src="assets/images/Rectangle37.png"></img>
+      <div className="flex flex-row p-20 bg-hero-image">
+        <div clasName="w-1/2">
+          <h1 className="text-6xl mb-6 text-white">
+            Det är tryggt att hyra ut ditt boende med Kollektiva
+          </h1>
+        </div>
+        <div className="flex flex-col w-1/2 justify-end pb-4">
+          <MyPagesButton text={"Registrera din bostad"} link={"/"} />
+        </div>
+      </div>
       <h2 className="ml-24 pt-14 text-5xl text-primary">
         Dina registrerade bostäder
       </h2>
