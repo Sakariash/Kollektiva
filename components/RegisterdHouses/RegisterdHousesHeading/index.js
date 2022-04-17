@@ -39,7 +39,7 @@ const RegisterdHousesHeading = () => {
           />
         </div>
       </div>
-      <h2 className="ml-24 pt-14 text-5xl text-primary">
+      <h2 className="ml-16 mr-16 tablet:ml-24 pt-14 text-3xl tablet:text-5xl text-primary">
         Dina registrerade bostäder
       </h2>
       <div className="bg-white mt-10 mb-1 w-2/3 rounded-md border-orange-500 border-2 m-auto flex flex-row">
