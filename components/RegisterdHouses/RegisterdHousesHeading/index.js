@@ -1,18 +1,41 @@
 import MyPagesButton from "../../MyPages/MyPagesButton";
+import RegisteredHousesBox from "../RegisteredHousesBox";
 
 const RegisterdHousesHeading = () => {
   return (
     <div className="bg-white pb-14">
-      <div className="flex flex-row p-20 bg-hero-image">
-        <div clasName="w-1/2">
-          <h1 className="text-6xl mb-6 text-white">
-            Det är tryggt att hyra ut ditt boende med Kollektiva
-          </h1>
+      <div className="p-20 bg-hero-image">
+        <div className="flex flex-row">
+          <div clasName="w-1/2">
+            <h1 className="text-6xl mb-6 text-white">
+              Det är tryggt att hyra ut ditt boende med Kollektiva
+            </h1>
+          </div>
+          <div className="flex flex-col w-1/2 justify-end pb-4">
+            <MyPagesButton
+              text={"Registrera din bostad"}
+              link={"/finishedregistration"}
+            />
+          </div>
         </div>
-        <div className="flex flex-col w-1/2 justify-end pb-4">
-          <MyPagesButton
-            text={"Registrera din bostad"}
-            link={"/finishedregistration"}
+        <div className="flex flex-row space-x-8">
+          <RegisteredHousesBox
+            imgsrc={"assets/images/RegisteredHouses/Vector.png"}
+            boxText={
+              "Oroa dig inte! Vi garanterar dig att det är 100% säkert att använda Kollektivas tjänster. Även om du söker ny bostad eller vill hyra ut."
+            }
+          />
+          <RegisteredHousesBox
+            imgsrc={"assets/images/RegisteredHouses/Vector2.png"}
+            boxText={
+              "Vi tar hand om krångelt! Kollektiva ansvarar för X, Y och Z. Vi vill att du som söker eller hyr ut din bostad ska kunna göra så smärttfritt som möjligt."
+            }
+          />
+          <RegisteredHousesBox
+            imgsrc={"assets/images/RegisteredHouses/Vector3.png"}
+            boxText={
+              "Vi tar 10% i provision för att agera mellanhand. Du som hyresvärd kan fortsätta amortera som vanligt när du hyr ut."
+            }
           />
         </div>
       </div>
