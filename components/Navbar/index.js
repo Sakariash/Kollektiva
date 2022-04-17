@@ -6,7 +6,7 @@ Link;
 
 const Navbar = () => {
   return (
-    <div className="px-5 w-screen h-20 flex justify-between items-center bg-secondary tablet:px-11 tablet:bg-white">
+    <div className="px-5 w-full h-20 flex justify-between items-center bg-secondary tablet:px-11 tablet:bg-white overflow-hidden">
       <Logo />
       <NavLinks
         NavLinks={[
