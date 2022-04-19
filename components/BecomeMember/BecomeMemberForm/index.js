@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BecomeMemberForm = (props) => {
   return (
     <div className="flex flex-col items-center content-center mt-20 tablet:mt-10">
@@ -6,7 +8,7 @@ const BecomeMemberForm = (props) => {
           <p className="font-bold">Ange din e-postadress</p>
         </label>
         <input
-          className="bg-secondary h-10 w-full rounded-md pl-2 tablet:h-12 tablet:w-full"
+          className="bg-white shadow-lg shadow-slate-300 h-10 w-full rounded-md pl-2 tablet:h-12 tablet:w-full"
           type="text"
           placeholder="Namn@exempel.se"
           name="email"
@@ -17,7 +19,7 @@ const BecomeMemberForm = (props) => {
           <p className="mt-6 font-bold">Ange ditt lösenord</p>
         </label>
         <input
-          className="bg-secondary h-10 w-full rounded-md pl-2 tablet:h-12 tablet:w-full"
+          className="bg-white shadow-lg shadow-slate-300 h-10 w-full rounded-md pl-2 tablet:h-12 tablet:w-full"
           type="password"
           placeholder="************"
           name="password"
@@ -28,19 +30,19 @@ const BecomeMemberForm = (props) => {
           <p className="mt-6 font-bold">Upprepa lösenord</p>
         </label>
         <input
-          className="bg-secondary h-10 w-full rounded-md pl-2 tablet:h-12 tablet:w-full"
+          className="bg-white shadow-lg shadow-slate-300 h-10 w-full rounded-md pl-2 tablet:h-12 tablet:w-full"
           type="password"
           placeholder="************"
           name="password"
           required
         ></input>
 
-        <div className="flex flex-col tablet:flex-row">
+        <div className="flex flex-col mt-6 laptop:flex-row laptop:mt-6">
           <label className="block" for="name">
             <p className="font-bold">Förnamn</p>
 
             <input
-              className="bg-secondary h-10 w-full rounded-md pl-2 tablet:mr-4 tablet:h-12 tablet:w-full"
+              className="bg-white shadow-lg shadow-slate-300 h-10 w-full rounded-md pl-2 tablet:mr-4 tablet:h-12 tablet:w-full"
               type="text"
               placeholder="Förnamn"
               name="name"
@@ -49,10 +51,10 @@ const BecomeMemberForm = (props) => {
           </label>
 
           <label className="block" for="lastname">
-            <p className="font-bold">Efternamn</p>
+            <p className="font-bold mt-6 laptop:mt-0 laptop:ml-4">Efternamn</p>
 
             <input
-              className="bg-secondary h-10 w-full rounded-md pl-2 tablet:h-12 tablet:w-full"
+              className="bg-white shadow-lg shadow-slate-300 h-10 w-full rounded-md pl-2 tablet:h-12 tablet:w-full laptop:ml-4"
               type="text"
               placeholder="Efternamn"
               name="lastname"
@@ -66,7 +68,11 @@ const BecomeMemberForm = (props) => {
             className="bg-btnPrimary mt-20 h-14 w-3/4 font-bold rounded-md mb-20 tablet:h-16 tablet:w-3/6 tablet:mt-6"
             type="submit"
           >
-            Bli medlem
+            <Link href="/login">
+              <a className="text-link text-black" href="/login">
+                Bli medlem
+              </a>
+            </Link>
           </button>
         </div>
       </div>

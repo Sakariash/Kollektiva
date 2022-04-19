@@ -11,7 +11,9 @@ const Login = () => {
       <LoginText
         SignupLink={
           <Link href="/signup">
-            <a className="text-link">Bli medlem här!</a>
+            <a className="text-link" href="/signup">
+              Bli medlem här!
+            </a>
           </Link>
         }
       />
