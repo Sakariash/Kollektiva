@@ -1,8 +1,13 @@
+import HeroContent from "../HeroContent";
+
 const HeroImage = () => {
   return (
-    <div className="h-screen relative z-0 ">
+    <div className="h-screen desktop:h-auto w-full relative z-0 ">
       <div className=" w-full desktop:w-3/6 h-full desktop:place-content-right desktop:right-0 bg-transparent z-40 opacity-60 absolute"></div>
       <div className=" w-full desktop:w-3/6 h-full place-content-right right-0 bg-black z-40 opacity-50 absolute"></div>
+      <div className=" w-full desktop:w-3/6 h-full place-content-right right-0  absolute">
+        <HeroContent />
+      </div>
       <picture>
         <source
           media="(min-width: 1024px)"
@@ -19,6 +24,10 @@ const HeroImage = () => {
 };
 
 export default HeroImage;
+
+{
+  /* <div className=" w-full desktop:w-3/6 h-full place-content-right right-0 bg-black z-40 opacity-50 absolute"></div> */
+}
 
 {
   /* <img

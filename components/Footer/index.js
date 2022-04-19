@@ -4,7 +4,7 @@ import FooterCopywright from "./FooterCopywright";
 
 export default function Footer() {
   return (
-    <div className="bg-primary w-screen pt-12 flex flex-col text-white desktop:flex desktop:flex-row desktop:flex-wrap ">
+    <div className="bg-primary w-full pt-12 flex flex-col text-white desktop:flex desktop:flex-row desktop:flex-wrap ">
       <FooterLinks
         firstHeadline={"Länkar"}
         firstLinks={[

@@ -1,5 +1,5 @@
 const HeroParagraph = (props) => {
-  return <p>{props.text}</p>;
+  return <p className="tablet:text-2xl">{props.text}</p>;
 };
 
 export default HeroParagraph;
