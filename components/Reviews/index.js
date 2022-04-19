@@ -3,7 +3,7 @@ export default function Reviews() {
     <div className="pt-64 px-2.5 w-full bg-transparent flex flex-col items-center tablet:justify-around tablet:flex-row z-0">
       <div className="tablet:flex tablet:justify-around tablet:flex-row">
         <div className="relative flex ">
-          <div className="absolute flex w-full h-full z-10 justify-center bottom-36">
+          <div className="absolute flex w-full h-full z-30 justify-center bottom-36">
             <img
               className="h-44 w-44 rounded-full object-cover"
               src="/assets/images/Mergim.png"
