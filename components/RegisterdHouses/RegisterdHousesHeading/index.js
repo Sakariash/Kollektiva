@@ -1,7 +1,7 @@
 import MyPagesButton from "../../MyPages/MyPagesButton";
 import RegisteredHousesBox from "../RegisteredHousesBox";
 
-const RegisterdHousesHeading = () => {
+const RegisterdHousesHeading = (img1, img2, img3) => {
   return (
     <div className="bg-white pb-14">
       <div className="p-20 bg-hero-image">
@@ -20,19 +20,19 @@ const RegisterdHousesHeading = () => {
         </div>
         <div className="flex flex-col tablet:flex-row tablet:space-x-8">
           <RegisteredHousesBox
-            imgsrc={"assets/images/RegisteredHouses/Vector.png"}
+            imgsrc={img1}
             boxText={
               "Oroa dig inte! Vi garanterar dig att det är 100% säkert att använda Kollektivas tjänster. Även om du söker ny bostad eller vill hyra ut."
             }
           />
           <RegisteredHousesBox
-            imgsrc={"assets/images/RegisteredHouses/Vector2.png"}
+            imgsrc={img2}
             boxText={
               "Vi tar hand om krångelt! Kollektiva ansvarar för X, Y och Z. Vi vill att du som söker eller hyr ut din bostad ska kunna göra så smärttfritt som möjligt."
             }
           />
           <RegisteredHousesBox
-            imgsrc={"assets/images/RegisteredHouses/Vector3.png"}
+            imgsrc={img3}
             boxText={
               "Vi tar 10% i provision för att agera mellanhand. Du som hyresvärd kan fortsätta amortera som vanligt när du hyr ut."
             }
