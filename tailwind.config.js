@@ -10,9 +10,9 @@ module.exports = {
         primary: "#0E589B",
         btnPrimary: "#FFBA34",
         link: "#10579C",
+        transparent: "#0F589B",
         accent: "#45BF6E",
       },
-
       backgroundImage: {
         "hero-image": "url('/assets/images/Rectangle37.png')",
       },
