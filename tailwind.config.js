@@ -32,6 +32,10 @@ module.exports = {
       height: {
         128: "32rem",
       },
+      fontFamily: {
+        Poppins: ["Poppins", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
