@@ -1,9 +1,7 @@
 export default function FrontPageImg() {
   return (
     <div className="h-screen desktop:h-auto w-full relative z-0 tablet:mt-40">
-      <div className=" invisible desktop:visible desktop:w-2/6 h-full desktop:place-content-left desktop:left-0 bg-transparent z-40 opacity-60 absolute"></div>
-      <div className="invisible desktop:visible w-full desktop:w-2/6 h-full left-0 bg-black z-40 opacity-30 absolute"></div>
-      {/* <div className="invisible desktop:visible w-full desktop:w-2/6 h-full left-0 absolute"></div> */}
+      <div className=" invisible desktop:visible desktop:w-2/6 h-full desktop:place-content-left desktop:left-0 bg-transparent z-40 opacity-80 absolute mix-blend-multiply"></div>
       <picture>
         <source
           media="(min-width: 1024px)"
