@@ -9,10 +9,10 @@ const MyPages = () => {
     <div className="bg-secondary">
       <div className="flex h-128 flex-row p-20 bg-hero-image">
         <div clasName="w-1/2">
-          <h1 className="text-6xl mb-6 text-white">
+          <h1 className="text-6xl font-Poppins mb-6 text-white">
             Välkommen till mina sidor
           </h1>
-          <p className="text-white mr-10 w-3/4">
+          <p className="text-white font-Inter mr-10 w-3/4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus,
             mollis senectus dui, vitae eu fames neque. Leo massa nisl ornare
             accumsan, imperdiet elementum, lectus.
