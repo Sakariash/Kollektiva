@@ -7,7 +7,7 @@ Link;
 const MyPages = () => {
   return (
     <div className="bg-secondary">
-      <div className="flex flex-row p-20 bg-hero-image">
+      <div className="flex h-128 flex-row p-20 bg-hero-image">
         <div clasName="w-1/2">
           <h1 className="text-6xl mb-6 text-white">
             Välkommen till mina sidor
@@ -25,6 +25,7 @@ const MyPages = () => {
         </div>
       </div>
       <MyPagesHeadline headline={"För dig som hyr ut en bostad"} />
+
       <MyPagesSection
         picture={"assets/images/MyPages/Mypages1.png"}
         heading={"Dina registrerade bostäder"}
@@ -38,6 +39,7 @@ const MyPages = () => {
         text={"Här kan du se de hyreskontrakt som skrivits"}
         buttonsText={"Se dina kontrakt"}
       />
+
       <MyPagesHeadline headline={"För dig som hyr eller vill hyra en bostad"} />
       <MyPagesSection
         picture={"assets/images/MyPages/Mypages3.png"}

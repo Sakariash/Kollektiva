@@ -14,7 +14,7 @@ module.exports = {
         accent: "#45BF6E",
       },
       backgroundImage: {
-        "hero-image": "url('/assets/images/Rectangle37.png')",
+        "hero-image": "url('/assets/images/MyPages/headpicture.png')",
       },
 
       screens: {
@@ -26,6 +26,9 @@ module.exports = {
 
         desktop: "1280px",
         // => @media (min-width: 1280px) { ... }
+      },
+      height: {
+        128: "32rem",
       },
     },
   },
