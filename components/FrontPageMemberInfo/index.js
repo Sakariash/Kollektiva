@@ -1,4 +1,4 @@
-import FrontPageInfo from "../..";
+import FrontPageInfo from "../FrontPageInfo";
 
 export default function FrontPageMemberInfo() {
   return (
