@@ -15,6 +15,8 @@ module.exports = {
       },
       backgroundImage: {
         "hero-image": "url('/assets/images/MyPages/headpicture.png')",
+        "hero-registered":
+          "url('/assets/images/RegisteredHouses/registered.png')",
       },
 
       screens: {

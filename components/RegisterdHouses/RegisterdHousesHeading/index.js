@@ -4,8 +4,8 @@ import RegisteredHousesBox from "../RegisteredHousesBox";
 const RegisterdHousesHeading = () => {
   return (
     <div className="bg-white pb-14">
-      <div className="p-20 bg-hero-image">
-        <div className="flex flex-col laptop:flex-row">
+      <div className="p-20 h-128 bg-cover bg-hero-registered">
+        <div className="flex flex-col mt-20 laptop:flex-row">
           <div clasName="w-1/2">
             <h1 className="text-3xl tablet:text-5xl laptop:text-6xl mb-6 text-white">
               Det är tryggt att hyra ut ditt boende med Kollektiva
@@ -18,7 +18,7 @@ const RegisterdHousesHeading = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col tablet:flex-row tablet:space-x-8">
+        <div className="absolute flex flex-col tablet:flex-row tablet:space-x-8">
           <RegisteredHousesBox
             imgsrc="assets/images/RegisteredHouses/Vector.png"
             boxText={
@@ -39,7 +39,7 @@ const RegisterdHousesHeading = () => {
           />
         </div>
       </div>
-      <h2 className="ml-16 mr-16 tablet:ml-24 pt-14 text-3xl tablet:text-5xl text-primary">
+      <h2 className="ml-16 mr-16 mt-36 tablet:ml-24 pt-14 text-3xl tablet:text-5xl text-primary">
         Dina registrerade bostäder
       </h2>
       <div className="bg-white mt-10 mb-1 w-2/3 rounded-md border-orange-500 border-2 m-auto flex flex-row">
