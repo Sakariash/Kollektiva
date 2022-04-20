@@ -7,7 +7,7 @@ const RegisterdHousesHeading = () => {
       <div className="p-20 h-128 bg-cover bg-hero-registered">
         <div className="flex flex-col mt-20 laptop:flex-row">
           <div clasName="w-1/2">
-            <h1 className="text-3xl tablet:text-5xl laptop:text-6xl mb-6 text-white">
+            <h1 className="text-3xl mr-8 font-Poppins tablet:text-5xl laptop:text-6xl mb-6 text-white">
               Det är tryggt att hyra ut ditt boende med Kollektiva
             </h1>
           </div>
@@ -39,7 +39,7 @@ const RegisterdHousesHeading = () => {
           />
         </div>
       </div>
-      <h2 className="ml-16 mr-16 mt-36 tablet:ml-24 pt-14 text-3xl tablet:text-5xl text-primary">
+      <h2 className="ml-16 font-Poppins mr-16 mt-36 tablet:ml-24 pt-14 text-3xl tablet:text-5xl text-primary">
         Dina registrerade bostäder
       </h2>
       <div className="bg-white mt-10 mb-1 w-2/3 rounded-md border-orange-500 border-2 m-auto flex flex-row">
@@ -47,7 +47,7 @@ const RegisterdHousesHeading = () => {
           className="ml-4 w-4 h-4 mt-auto mb-auto"
           src="assets/images/attention.png"
         ></img>
-        <h3 className="p-4 text-orange-500">
+        <h3 className="p-4 font-Inter text-orange-500">
           Du har inga registrerade bostäder för tillfället. Registera din bostad
           så kan du se den här sen.
         </h3>
