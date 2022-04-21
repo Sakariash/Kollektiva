@@ -24,6 +24,7 @@ const MyPages = () => {
           <MyPagesButton text={"Mina pågående ärenden"} />
         </div>
       </div>
+
       <MyPagesHeadline headline={"För dig som hyr ut en bostad"} />
 
       <MyPagesSection
