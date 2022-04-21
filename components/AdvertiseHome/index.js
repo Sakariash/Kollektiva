@@ -10,7 +10,7 @@ export default function AdvertiseHome() {
           </h1>
         </div>
         <form action="/" method="post">
-          <div className="flex flex-col desktop:flex-row ">
+          <div className="flex flex-col desktop:flex-row">
             <div>
               <div className="flex flex-col max-w-md font-Inter text-sm font-semibold my-10 skrivformulär">
                 <label for="address">Fyll i bostadsadress</label>
