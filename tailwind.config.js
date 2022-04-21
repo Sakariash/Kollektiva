@@ -17,6 +17,8 @@ module.exports = {
         "hero-image": "url('/assets/images/MyPages/headpicture.png')",
         "hero-registered":
           "url('/assets/images/RegisteredHouses/registered.png')",
+        "hero-registered-mobile":
+          "url('/assets/images/RegisteredHouses/registeredMobile.png')",
       },
 
       screens: {
