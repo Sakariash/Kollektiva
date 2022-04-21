@@ -7,18 +7,18 @@ Link;
 const MyPages = () => {
   return (
     <div className="bg-secondary">
-      <div className="flex h-128 flex-row p-20 bg-hero-image">
-        <div clasName="w-1/2">
+      <div className="flex h-128 flex-col laptop:flex-row p-10 tablet:p-20 bg-hero-image">
+        <div clasName="w-full laptop:w-1/2">
           <h1 className="text-3xl tablet:text-5xl laptop:text-6xl font-Poppins mb-6 text-white">
             Välkommen till mina sidor
           </h1>
-          <p className="text-white font-Inter mr-10 w-3/4">
+          <p className="text-white font-Inter pb-10 tablet:mr-10 laptop:w-3/4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus,
             mollis senectus dui, vitae eu fames neque. Leo massa nisl ornare
             accumsan, imperdiet elementum, lectus.
           </p>
         </div>
-        <div className="flex flex-col w-1/2">
+        <div className="flex flex-col w-full laptop:w-1/2">
           <MyPagesButton text={"Ändra dina personuppgifter"} />
           <MyPagesButton text={"Mina kontrakt"} />
           <MyPagesButton text={"Mina pågående ärenden"} />
