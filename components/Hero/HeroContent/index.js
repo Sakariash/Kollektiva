@@ -16,7 +16,11 @@ const HeroContent = () => {
           <HeroParagraph text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing pellentesque commodo aenean sed egestas quisque ipsum netus." />
         </article>
         <HeroButton backgrounds="#FFFFFF" text="Hitta boende" />
-        <HeroButton backgrounds="#FFBA36" text="Annonsera boende" />
+        <HeroButton
+          backgrounds="#FFBA36"
+          text="Annonsera boende"
+          link={"/advertise"}
+        />
       </div>
     </div>
   );
