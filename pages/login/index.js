@@ -1,7 +1,7 @@
 import Login from "../../components/Login";
-import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import NavbarLogin from "../../components/NavbarLogin";
 
 export default function LoginPage() {
-  return [<Navbar />, <Login />, <Footer />];
+  return [<NavbarLogin />, <Login />, <Footer />];
 }

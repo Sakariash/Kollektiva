@@ -1,7 +1,7 @@
 import BecomeMember from "../../components/BecomeMember";
-import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import NavbarLogin from "../../components/NavbarLogin";
 
 export default function SignUpPage() {
-  return [<Navbar />, <BecomeMember />, <Footer />];
+  return [<NavbarLogin />, <BecomeMember />, <Footer />];
 }
