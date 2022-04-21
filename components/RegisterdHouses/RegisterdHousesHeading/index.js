@@ -19,7 +19,7 @@ const RegisterdHousesHeading = () => {
           </div>
         </div>
         <div className="bg-primary">
-          <div className="tablet:absolute flex flex-col tablet:flex-row tablet:space-x-8">
+          <div className="hidden laptop:flex tablet:absolute  tablet:flex-row tablet:space-x-8">
             <RegisteredHousesBox
               imgsrc="assets/images/RegisteredHouses/Vector.png"
               boxText={
@@ -41,7 +41,29 @@ const RegisterdHousesHeading = () => {
           </div>
         </div>
       </div>
-      <h2 className="ml-16 font-Poppins mr-16 mt-36 tablet:ml-24 pt-14 text-3xl tablet:text-5xl text-primary">
+      <div className="laptop:hidden bg-primary pb-8">
+        <div className=" laptop:hidden flex flex-col tablet:flex-row space-y-4 tablet:space-y-0 tablet:space-x-4">
+          <RegisteredHousesBox
+            imgsrc="assets/images/RegisteredHouses/Vector.png"
+            boxText={
+              "Oroa dig inte! Vi garanterar dig att det är 100% säkert att använda Kollektivas tjänster. Även om du söker ny bostad eller vill hyra ut."
+            }
+          />
+          <RegisteredHousesBox
+            imgsrc="assets/images/RegisteredHouses/Vector2.png"
+            boxText={
+              "Vi tar hand om krångelt! Kollektiva ansvarar för X, Y och Z. Vi vill att du som söker eller hyr ut din bostad ska kunna göra så smärttfritt som möjligt."
+            }
+          />
+          <RegisteredHousesBox
+            imgsrc="assets/images/RegisteredHouses/Vector3.png"
+            boxText={
+              "Vi tar 10% i provision för att agera mellanhand. Du som hyresvärd kan fortsätta amortera som vanligt när du hyr ut."
+            }
+          />
+        </div>
+      </div>
+      <h2 className="ml-16 font-Poppins mr-16 laptop:mt-36 tablet:ml-24 pt-14 text-3xl tablet:text-5xl text-primary">
         Dina registrerade bostäder
       </h2>
       <div className="bg-white mt-10 mb-1 w-2/3 rounded-md border-orange-500 border-2 m-auto flex flex-row">

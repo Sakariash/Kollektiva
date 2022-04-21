@@ -11,7 +11,7 @@ const Navbar = () => {
       <NavLinks
         NavLinks={[
           <Link href="/registeredhouses">Hyr ut ditt boende</Link>,
-          <Link href="/">Hyr ett boende</Link>,
+          <Link href="/frontpage">Hyr ett boende</Link>,
           <Link href="/mypages">Mina sidor</Link>,
         ]}
       />
