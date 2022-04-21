@@ -9,7 +9,7 @@ const MyPages = () => {
     <div className="bg-secondary">
       <div className="flex h-128 flex-row p-20 bg-hero-image">
         <div clasName="w-1/2">
-          <h1 className="text-6xl font-Poppins mb-6 text-white">
+          <h1 className="text-3xl tablet:text-5xl laptop:text-6xl font-Poppins mb-6 text-white">
             Välkommen till mina sidor
           </h1>
           <p className="text-white font-Inter mr-10 w-3/4">
