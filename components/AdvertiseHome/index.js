@@ -255,7 +255,7 @@ export default function AdvertiseHome() {
                 </div>
                 <div className="desktop:absolute desktop:bottom-0 desktop:right-0 ">
                   <button className=" font-Poppins py-3 px-14 rounded-md bg-[#FFBA36]">
-                    <a href="/">Registrera din bostad</a>
+                    <a href="/finishedregistration">Registrera din bostad</a>
                   </button>
                 </div>
               </div>
