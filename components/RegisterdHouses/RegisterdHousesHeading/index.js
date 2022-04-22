@@ -12,10 +12,7 @@ const RegisterdHousesHeading = () => {
             </h1>
           </div>
           <div className="flex flex-col w-28 laptop:w-1/2 tablet:justify-end pb-4">
-            <MyPagesButton
-              text={"Registrera din bostad"}
-              link={"/finishedregistration"}
-            />
+            <MyPagesButton text={"Registrera din bostad"} link={"/advertise"} />
           </div>
         </div>
         <div className="bg-primary">
