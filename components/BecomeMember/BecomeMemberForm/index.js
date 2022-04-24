@@ -4,7 +4,7 @@ const BecomeMemberForm = (props) => {
   return (
     <div className="flex flex-col items-center content-center mt-20 tablet:mt-10">
       <div className="w-3/4 tablet:w-3/5 laptop:w-1/3">
-        <label className="block" for="email">
+        <label className="block" htmlFor="email">
           <p className="font-bold font-Inter">Ange din e-postadress</p>
         </label>
         <input
@@ -15,7 +15,7 @@ const BecomeMemberForm = (props) => {
           required
         ></input>
 
-        <label for="password" className="block">
+        <label htmlFor="password" className="block">
           <p className="mt-6 font-bold font-Inter">Ange ditt lösenord</p>
         </label>
         <input
@@ -26,7 +26,7 @@ const BecomeMemberForm = (props) => {
           required
         ></input>
 
-        <label for="password" className="block">
+        <label htmlFor="password" className="block">
           <p className="mt-6 font-bold font-Inter">Upprepa lösenord</p>
         </label>
         <input
@@ -38,7 +38,7 @@ const BecomeMemberForm = (props) => {
         ></input>
 
         <div className="flex flex-col mt-6 laptop:flex-row laptop:mt-6">
-          <label className="block" for="name">
+          <label className="block" htmlFor="name">
             <p className="font-bold font-Inter">Förnamn</p>
 
             <input
@@ -50,7 +50,7 @@ const BecomeMemberForm = (props) => {
             ></input>
           </label>
 
-          <label className="block" for="lastname">
+          <label className="block" htmlFor="lastname">
             <p className="font-bold font-Inter mt-6 laptop:mt-0 laptop:ml-4">
               Efternamn
             </p>
@@ -66,16 +66,14 @@ const BecomeMemberForm = (props) => {
         </div>
 
         <div className="flex justify-center tablet:justify-start">
-          <button
-            className="bg-btnPrimary mt-20 h-14 w-3/4 font-bold rounded-md mb-20 tablet:h-16 tablet:w-3/6 tablet:mt-6"
-            type="submit"
-          >
-            <Link href="/login">
-              <a className="text-link text-black font-Poppins" href="/login">
-                Bli medlem
-              </a>
-            </Link>
-          </button>
+          <Link href="/login">
+            <button
+              className="font-Poppins bg-btnPrimary mt-20 h-14 w-3/4 font-bold rounded-md mb-20 tablet:h-16 tablet:w-3/6 tablet:mt-6"
+              type="submit"
+            >
+              Bli medlem
+            </button>
+          </Link>
         </div>
       </div>
     </div>

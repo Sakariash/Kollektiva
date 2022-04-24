@@ -1,3 +1,4 @@
+import Link from "next/link";
 import HomeCheckbox from "../HomeCheckbox";
 
 export default function AdvertiseHome() {
@@ -13,7 +14,7 @@ export default function AdvertiseHome() {
           <div className="flex flex-col desktop:flex-row">
             <div>
               <div className="flex flex-col max-w-md font-Inter text-sm font-semibold my-10 skrivformulär">
-                <label for="address">Fyll i bostadsadress</label>
+                <label htmlFor="address">Fyll i bostadsadress</label>
                 <input
                   className="shadow-md mb-10 h-12 pl-2"
                   type="text"
@@ -38,7 +39,7 @@ export default function AdvertiseHome() {
                 </div>
               </div>
 
-              <label for="price">Månadsavgift i SEK</label>
+              <label htmlFor="price">Månadsavgift i SEK</label>
               <div className="flex mb-10">
                 <p> 0 </p>
                 <input
@@ -51,7 +52,7 @@ export default function AdvertiseHome() {
                 />
                 <p> 15.000 </p>
               </div>
-              <label for="price">Antal kvadratmeter</label>
+              <label htmlFor="price">Antal kvadratmeter</label>
               <div className="flex mb-10">
                 <p> 0 </p>
                 <input
@@ -66,7 +67,7 @@ export default function AdvertiseHome() {
               </div>
 
               <div className="VAD ÄR JAG TILL FÖR?">
-                <label for="form-of-housing">Boendeform</label>
+                <label htmlFor="form-of-housing">Boendeform</label>
                 <div className="mt-5 flex flex-wrap">
                   <HomeCheckbox
                     name="Apartment"
@@ -83,7 +84,7 @@ export default function AdvertiseHome() {
                 </div>
 
                 <div className="mt-10">
-                  <label for="form-of-housing">Antal rum</label>
+                  <label htmlFor="form-of-housing">Antal rum</label>
                   <div className="mt-5 font-normal flex flex-row">
                     <HomeCheckbox name="oneRoom" id="oneRoom" label="1 rok" />
                     <HomeCheckbox name="twoRoom" id="twoRoom" label="2 rok" />
@@ -102,7 +103,7 @@ export default function AdvertiseHome() {
               </div>
 
               <div className="mt-10">
-                <label for="include">Ingår i hyran</label>
+                <label htmlFor="include">Ingår i hyran</label>
                 <div className="mt-5 flex flex-wrap max-w-sm">
                   <HomeCheckbox
                     name="hot-water"
@@ -149,7 +150,7 @@ export default function AdvertiseHome() {
                 </div>
               </div>
               <div className="mt-10">
-                <label for="include">Bekvämligheter</label>
+                <label htmlFor="include">Bekvämligheter</label>
                 <div className="mt-5 flex flex-wrap max-w-md desktop:max-w-md">
                   <HomeCheckbox
                     name="washingmachine"
@@ -228,7 +229,7 @@ export default function AdvertiseHome() {
                 <div className="w-full h-full flex justify-center items-center">
                   <img
                     className="hidden desktop:block h-32 my-44 mx-64"
-                    src="../../assets/images/icons/img-upload.svg"
+                    srcSet="../../assets/images/icons/img-upload.svg"
                   ></img>
                 </div>
               </div>
@@ -248,15 +249,17 @@ export default function AdvertiseHome() {
                     <input type="file" className="hidden" />
                     <img
                       className="h-5 mr-2 "
-                      src="../../assets/images/icons/upload-document.svg"
+                      srcSet="../../assets/images/icons/upload-document.svg"
                     ></img>
                     Ladda upp dokument
                   </label>
                 </div>
                 <div className="desktop:absolute desktop:bottom-0 desktop:right-0 ">
-                  <button className=" font-Poppins py-3 px-14 rounded-md bg-[#FFBA36]">
-                    <a href="/finishedregistration">Registrera din bostad</a>
-                  </button>
+                  <Link href="/finishedregistration">
+                    <button className=" font-Poppins py-3 px-14 rounded-md bg-[#FFBA36]">
+                      Registrera din bostad
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

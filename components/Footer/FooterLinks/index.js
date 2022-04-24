@@ -13,7 +13,7 @@ export default function FooterLinks({
         <div className="flex flex-col">
           {firstLinks.map((link) => {
             return (
-              <a className="desktop:pb-2.5" href="#">
+              <a key={link.index} className="desktop:pb-2.5" href="#">
                 {link}
               </a>
             );
@@ -27,7 +27,7 @@ export default function FooterLinks({
         <div className="flex flex-col">
           {secondLinks.map((link) => {
             return (
-              <a className="desktop:pb-2" href="#">
+              <a key={link.index} className="desktop:pb-2" href="#">
                 {link}
               </a>
             );
