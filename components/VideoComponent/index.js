@@ -1,6 +1,6 @@
 export default function Video() {
   return (
-    <div classname="desktop:absolute">
+    <div className="desktop:absolute">
       <div className="flex justify-center items-center flex-col mt-10 relative desktop:mx-32">
         <div className="bg-transparent w-full rounded-t-lg h-20 relative desktop:hidden ">
           <div className="text-3xl w-3/5  max-w-sm text-transparent font-bold flex text-center desktop:invisible bg-white absolute rounded-lg top-[-50%] pl-4 p-2">
@@ -13,7 +13,7 @@ export default function Video() {
         </div>
         <picture className="z-10 absolute">
           <source media="(min-width: 1024px)" srcset="assets/images/Play.png" />
-          <img className="" src="assets/images/smallPlay.png" alt="" />
+          <img className="" srcSet="assets/images/smallPlay.png" alt="" />
         </picture>
       </div>
     </div>
