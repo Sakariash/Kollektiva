@@ -22,7 +22,7 @@ export default function AdvertiseHome() {
                   name="address"
                   placeholder="Skriv bostadsadress här"
                 ></input>
-                <label for="date">Välj tillträdesdatum</label>
+                <label htmlFor="date">Välj tillträdesdatum</label>
                 <input
                   className="shadow-md mb-2 h-10 px-2 text-[#9CA3AF]"
                   type="date"
@@ -221,7 +221,7 @@ export default function AdvertiseHome() {
                     <input type="file" className="hidden" />
                     <img
                       className="h-5 mr-2 "
-                      src="../../assets/images/icons/upload-document.svg"
+                      srcSet="../../assets/images/icons/upload-document.svg"
                     ></img>
                     Ladda upp bilder
                   </label>

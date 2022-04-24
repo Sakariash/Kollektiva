@@ -7,7 +7,10 @@ export default function Video() {
             <h3>Hur hyr du ut din bostad?</h3>
           </div>
         </div>
-        <img className="" src="/assets/images/unsplash_oFMI6CdD7yU.png"></img>
+        <img
+          className=""
+          srcSet="/assets/images/unsplash_oFMI6CdD7yU.png"
+        ></img>
         <div className="invisible text-6xl leading-relaxed text-transparent text-center font-bold max-w-3xl desktop:visible bg-white absolute rounded-lg px-4 top-[-10%]">
           <h3>Hur hyr du ut din bostad?</h3>
         </div>
