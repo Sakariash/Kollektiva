@@ -15,7 +15,7 @@ export default function Video() {
           <h3>Hur hyr du ut din bostad?</h3>
         </div>
         <picture className="z-10 absolute">
-          <source media="(min-width: 1024px)" srcset="assets/images/Play.png" />
+          <source media="(min-width: 1024px)" srcSet="assets/images/Play.png" />
           <img className="" srcSet="assets/images/smallPlay.png" alt="" />
         </picture>
       </div>
