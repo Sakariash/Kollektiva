@@ -3,5 +3,11 @@ import Footer from "../../components/Footer";
 import FinishedRegistration from "../../components/FinishedRegistration";
 
 export default function LoginPage() {
-  return [<Navbar />, <FinishedRegistration />, <Footer />];
+  return (
+    <>
+      <Navbar />
+      <FinishedRegistration />
+      <Footer />
+    </>
+  );
 }

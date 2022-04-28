@@ -6,12 +6,14 @@ import ReviewContent from "../../components/ReviewContent";
 import VideoSection from "../../components/VideoSection";
 
 export default function LoginPage() {
-  return [
-    <Navbar />,
-    <Hero />,
-    <ReviewContent />,
-    <FrontPageMember />,
-    <VideoSection />,
-    <Footer />,
-  ];
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <ReviewContent />
+      <FrontPageMember />
+      <VideoSection />
+      <Footer />
+    </>
+  );
 }

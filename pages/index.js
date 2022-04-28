@@ -6,12 +6,14 @@ import VideoSection from "../components/VideoSection";
 import NavbarLogin from "../components/NavbarLogin";
 
 export default function Home() {
-  return [
-    <NavbarLogin />,
-    <Hero />,
-    <ReviewContent />,
-    <FrontPageMember />,
-    <VideoSection />,
-    <Footer />,
-  ];
+  return (
+    <>
+      <NavbarLogin />
+      <Hero />
+      <ReviewContent />
+      <FrontPageMember />
+      <VideoSection />
+      <Footer />
+    </>
+  );
 }

@@ -4,5 +4,9 @@ import Footer from "../../components/Footer";
 import MyPages from "../../components/MyPages";
 
 export default function LoginPage() {
-  return [<Navbar />, <MyPages />, <Footer />];
+  return (
+    <>
+      <Navbar />, <MyPages />, <Footer />;
+    </>
+  );
 }
