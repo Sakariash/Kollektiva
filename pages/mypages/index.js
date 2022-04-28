@@ -6,7 +6,9 @@ import MyPages from "../../components/MyPages";
 export default function LoginPage() {
   return (
     <>
-      <Navbar />, <MyPages />, <Footer />;
+      <Navbar />
+      <MyPages />
+      <Footer />;
     </>
   );
 }

@@ -5,7 +5,9 @@ import NavbarLogin from "../../components/NavbarLogin";
 export default function LoginPage() {
   return (
     <>
-      <NavbarLogin />, <Login />, <Footer />;
+      <NavbarLogin />
+      <Login />
+      <Footer />;
     </>
   );
 }

@@ -11,19 +11,16 @@ const Navbar = () => {
       <NavLinks
         NavLinks={[
           {
-            key: "link1",
             href: "/registeredhouses",
-            titel: "Hyr ut ditt boende",
+            headline: "Hyr ut ditt boende",
           },
           {
-            key: "link2",
             href: "/registeredhouses",
-            titel: "Hyr ut ditt boende",
+            headline: "Hyr ut ditt boende",
           },
           {
-            key: "link3",
             href: "/registeredhouses",
-            titel: "Hyr ut ditt boende",
+            headline: "Hyr ut ditt boende",
           },
         ]}
       />

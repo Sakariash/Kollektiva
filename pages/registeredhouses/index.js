@@ -5,7 +5,9 @@ import RegisterdHouses from "../../components/RegisterdHouses";
 export default function LoginPage() {
   return (
     <>
-      <Navbar />, <RegisterdHouses />, <Footer />;
+      <Navbar />
+      <RegisterdHouses />
+      <Footer />;
     </>
   );
 }
