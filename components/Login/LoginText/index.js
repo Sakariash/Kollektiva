@@ -1,5 +1,3 @@
-import Link from "next/Link";
-
 const LoginText = ({ SignupLink }) => {
   return (
     <div className="flex justify-center content-center mt-10">
