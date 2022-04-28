@@ -11,9 +11,9 @@ export default function FooterLinks({
           {firstHeadline}
         </h3>
         <div className="flex flex-col">
-          {firstLinks.map((link) => {
+          {firstLinks.map((link, index) => {
             return (
-              <a key={link.index} className="desktop:pb-2.5" href="#">
+              <a key={index} className="desktop:pb-2.5" href="#">
                 {link}
               </a>
             );
@@ -25,9 +25,9 @@ export default function FooterLinks({
           {secondHeadline}
         </h3>
         <div className="flex flex-col">
-          {secondLinks.map((link) => {
+          {secondLinks.map((link, index) => {
             return (
-              <a key={link.index} className="desktop:pb-2" href="#">
+              <a key={index} className="desktop:pb-2" href="#">
                 {link}
               </a>
             );
